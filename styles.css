@@ -1,2 +1,25 @@
-
+.holder{
+	display: flex;
+	margin:20px auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box1{
+	background-color:red;
+	width: 100px;
+	height:100px;
+	order:2;
+}
+.box2{
+	background-color:blue;
+	width: 100px;
+	height:100px;
+	order:3;
+}
+.box3{
+	background-color:green;
+	width: 100px;
+	height:100px;
+	order:1;
+}
 /* Your CSS Code here. */
